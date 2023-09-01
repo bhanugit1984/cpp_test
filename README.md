@@ -1,8 +1,12 @@
 # cpp_test
+
 banking system to run in docker
+
 compile the Bank.cpp in Linux machine of any Ubuntu/CentOs systems
+
 for build:
 sudo docker build . -t cpp_test:1
+
 for run:
 sudo docker run --rm -it cpp_test:1
 
