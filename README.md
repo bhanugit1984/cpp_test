@@ -16,3 +16,5 @@ sudo apt update
 sudo apt install docker.io
 sudo docker version
 sudo usermod -a -G docker ubuntu
+
+When you use, unit testcases, comment the main in Bank.cpp or remove main in that file
