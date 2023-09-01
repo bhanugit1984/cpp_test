@@ -1,4 +1,5 @@
 # cpp_test
+clone the source files, header files and docker file into your workspace in linux machine
 
 banking system to run in docker
 
