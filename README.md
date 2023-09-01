@@ -7,10 +7,10 @@ banking system to run in docker
 2) using the dockerfile in the workspace run the below commands
 
 for build:
-sudo docker build . -t cpp_test:1
+  sudo docker build . -t cpp_test:1
 
 for run:
-sudo docker run --rm -it cpp_test:1
+  sudo docker run --rm -it cpp_test:1
 
 3) commands to install docker in ubuntu are below
 sudo apt update
