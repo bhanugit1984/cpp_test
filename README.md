@@ -14,8 +14,13 @@ for run:
 
 3) commands to install docker in ubuntu are below
 sudo apt update
+
 sudo apt install docker.io
+
 sudo docker version
+
 sudo usermod -a -G docker ubuntu
 
-4) When you use, unit testcases, comment the main in Bank.cpp or remove main in that file, and change the cpp file in the Dockerfile to run all the unit testcases at once
+sudo apt-get install docker-compose-plugin
+
+5) When you use, unit testcases, comment the main in Bank.cpp or remove main in that file, and change the cpp file in the Dockerfile to run all the unit testcases at once
